@@ -8,17 +8,21 @@ pin: true
 
 ## Everything you need for implementation
 
+- **`Sercomm NA502(s)`** gateway with the cover/housing removed
 - computer device with an Ethernet and serial TTL connection
-- `TFTP server` and `Console Client` running on your computer
-- Sercomm NA502(s) gateway with the cover/housing removed
-- 3-pin serial connection to the unpopulated `4-pin solder pads` near the LEDs
-  - with the front of the device facing you, the pinout is as follows: `GND - TXD - n.a. - RXD`
-  - the serial interface settings are `57600 8N1`
+- **`TFTP server`** and **`Console Client`** running on your computer
+- 3-pin serial connection to the unpopulated **`4-pin solder pads`** near the LEDs
+  - with the front of the device facing you, the pinout is as follows: **`GND - TXD - n.a. - RXD`**
+  - the serial interface settings are **`57600 8N1`**
 - direct LAN cable connection between computer and gateway
   - It is the safest to
-    - manually assign your computer an IP address in the `192.168.1.x` range, eg. `192.168.1.100`
-    - enter `192.168.1.1` for the router and
-    - use `255.255.255.0` as the network mask
+    - manually assign your computer an IP address in the **`192.168.1.x`** range, eg. **`192.168.1.100`**
+    - enter **`192.168.1.1`** for the router and
+    - use **`255.255.255.0`** as the network mask
+
+>
+The above was created on the basis of information from [**OpenWrt.org**](https://openwrt.org/toh/sercomm/na502) and expanded accordingly.
+{: .prompt-info }
 
 ## Illustrations of the hardware tools used
 
@@ -30,7 +34,7 @@ _The TTL Adapter_
 _The wired connection_
 
 >
-- If the TTL connection is established when switching power on and `NO MESSAGES` are visible on the console, disconnect the TTL connection and restart the gateway without a TTL connection.
+- If the TTL connection is established when switching power on and **`NO MESSAGES`** are visible on the console, disconnect the TTL connection and restart the gateway without a TTL connection.
 - When the gateway has completed the boot process, establish the TTL connection and then press the reset button.
 - The gateway should now restart and a series of messages should now be visible.
 {: .prompt-info }
