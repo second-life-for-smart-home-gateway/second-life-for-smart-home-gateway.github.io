@@ -1,8 +1,9 @@
 ---
 title: Prerequisites
-date: 2024-01-01 12:00:00
+date: 2024-01-02 12:00:00
 categories: [Tutorial, Preparation]
 tags: [getting started]     # TAG names should always be lowercase
+pin: true
 ---
 
 ## Everything you need for implementation
@@ -21,15 +22,15 @@ tags: [getting started]     # TAG names should always be lowercase
 
 ## Illustrations of the hardware tools used
 
-![solder-pads](/pics/Sercomm-NA502-Connector.jpg)
+![solder-pads](/pics/Sercomm-NA502-Connector.jpg){: .shadow }
 _The Solder Pads of the NA502(s)_
-![ttl-adapter](/pics/Sercomm-TTL-Adapter.jpg)
+![ttl-adapter](/pics/Sercomm-TTL-Adapter.jpg){: .shadow }
 _The TTL Adapter_
-![ttl-connection](/pics/Sercomm-NA502-Connection-Error.jpg)
+![ttl-connection](/pics/Sercomm-NA502-Connection-Error.jpg){: .shadow }
 _The wired connection_
 
-## Note on any console problems
-
-- If the TTL connection is established when switching power on and no messages are visible on the console, disconnect the TTL connection and restart the gateway without a TTL connection.
-- When the cable modem has completed the boot process, establish the TTL connection and then press the reset button.
+>
+- If the TTL connection is established when switching power on and `NO MESSAGES` are visible on the console, disconnect the TTL connection and restart the gateway without a TTL connection.
+- When the gateway has completed the boot process, establish the TTL connection and then press the reset button.
 - The gateway should now restart and a series of messages should now be visible.
+{: .prompt-info }
