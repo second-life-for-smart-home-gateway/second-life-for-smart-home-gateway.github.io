@@ -21,7 +21,7 @@ pin: true
     - use **`255.255.255.0`** as the network mask
 
 >
-The above was created on the basis of information from [**OpenWrt.org**](https://openwrt.org/toh/sercomm/na502) and expanded accordingly.
+The above was created on the basis of information from [**OpenWrt.org**](https://openwrt.org/toh/sercomm/na502){:target="_blank"} and expanded accordingly.
 {: .prompt-info }
 
 ## Illustrations of the hardware tools used
