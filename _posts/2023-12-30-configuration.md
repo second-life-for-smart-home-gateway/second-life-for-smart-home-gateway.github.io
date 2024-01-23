@@ -10,3 +10,5 @@ pin: true
 {: .prompt-warning }
 
 ## Making a "dump" wifi access point
+
+pls see the instructions
