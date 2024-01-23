@@ -15,7 +15,10 @@ image:
 
 ## Precondition check list
 
+You need to check.
+
 ## TFTP installation instructions
+
 You need to attach a serial console to the unpopulated 4-pin header near the LEDs. With the front of the device facing towards you, the pinout is: GND - TXD - ? - RXD. The settings are 57600 8N1 and you should see a bunch of messages immediately after start.
 
 - Using the terminal, select option `1. Load system code to SDRAM via TFTP.``
