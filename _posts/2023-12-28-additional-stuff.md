@@ -1,5 +1,5 @@
 ---
-title: Additional Stuff
+title: Open issues and further considerations
 date: 2023-12-28 12:00:00
 categories: [Tutorial, Setup]
 tags: [drawbacks, issues, open items]     # TAG names should always be lowercase
@@ -10,5 +10,3 @@ pin: true
 {: .prompt-warning }
 
 ## Strange things with almost no explanation
-
-next steps
